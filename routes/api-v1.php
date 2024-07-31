@@ -12,7 +12,6 @@ Route::get('/prueba', function () {
 });
 
 Route::post('register', [RegisterController::class,'store'])->name('api.v1.registrer');
-
 Route::post('register', [RegisterController::class,'store'])->name('api.v1.registrer');
 
 Route::get('categories', [CategoryController::class,'index'])->name('api.v1.categories.index');
